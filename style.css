@@ -529,9 +529,10 @@ p { margin-bottom: 1rem; color: var(--text-muted); }
 }
 
 .contact-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
     background: white;
     border-radius: 20px;
     box-shadow: var(--shadow-md);
