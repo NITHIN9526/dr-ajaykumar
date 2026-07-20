@@ -272,13 +272,20 @@ p { margin-bottom: 1rem; color: var(--text-muted); }
 .stats-container {
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 3rem;
     animation: fadeInUp 1.4s ease forwards;
+    background-color: white;
+    padding: 1.5rem 2.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
+    margin: 0 auto;
+    border: 1px solid var(--primary-light);
 }
 
 .stat-item {
     display: flex;
     align-items: center;
+    text-align: left;
     gap: 1rem;
 }
 
@@ -742,7 +749,9 @@ p { margin-bottom: 1rem; color: var(--text-muted); }
     
     .stats-container {
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
+        gap: 1.5rem;
+        padding: 1.5rem;
     }
     
     .floating-card {
